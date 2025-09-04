@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yfkJeZ2Yy4SB8SPWl+oC7QePzJT+HtiuXY9LVTzA9Io=",
+  "Source": "DotnetTestTask.Api",
+  "BasePath": "_content/DotnetTestTask.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

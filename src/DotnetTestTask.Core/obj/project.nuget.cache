@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "zF1r38Meuqs=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GORN\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.8\\microsoft.extensions.configuration.9.0.8.nupkg.sha512",
+    "C:\\Users\\GORN\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.8\\microsoft.extensions.configuration.abstractions.9.0.8.nupkg.sha512",
+    "C:\\Users\\GORN\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.8\\microsoft.extensions.configuration.binder.9.0.8.nupkg.sha512",
+    "C:\\Users\\GORN\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.8\\microsoft.extensions.primitives.9.0.8.nupkg.sha512",
+    "C:\\Users\\GORN\\.nuget\\packages\\sonaranalyzer.csharp\\10.15.0.120848\\sonaranalyzer.csharp.10.15.0.120848.nupkg.sha512"
+  ],
+  "logs": []
+}

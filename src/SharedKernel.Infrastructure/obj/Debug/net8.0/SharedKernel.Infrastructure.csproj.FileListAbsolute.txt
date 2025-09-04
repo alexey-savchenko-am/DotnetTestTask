@@ -1,0 +1,17 @@
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\bin\Debug\net8.0\SharedKernel.Infrastructure.deps.json
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\bin\Debug\net8.0\SharedKernel.Infrastructure.runtimeconfig.json
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\bin\Debug\net8.0\SharedKernel.Infrastructure.dll
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\bin\Debug\net8.0\SharedKernel.Infrastructure.pdb
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\bin\Debug\net8.0\SharedKernel.Core.dll
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\bin\Debug\net8.0\SharedKernel.Core.pdb
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\obj\Debug\net8.0\SharedKernel.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\obj\Debug\net8.0\SharedKernel.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\obj\Debug\net8.0\SharedKernel.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\obj\Debug\net8.0\SharedKernel.Infrastructure.AssemblyInfo.cs
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\obj\Debug\net8.0\SharedKernel.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\obj\Debug\net8.0\SharedKe.6FB84EA5.Up2Date
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\obj\Debug\net8.0\SharedKernel.Infrastructure.dll
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\obj\Debug\net8.0\refint\SharedKernel.Infrastructure.dll
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\obj\Debug\net8.0\SharedKernel.Infrastructure.pdb
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\obj\Debug\net8.0\SharedKernel.Infrastructure.genruntimeconfig.cache
+D:\Projects\DotnetTestTask\src\SharedKernel.Infrastructure\obj\Debug\net8.0\ref\SharedKernel.Infrastructure.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DotnetTestTask.Api.props" />
+</Project>

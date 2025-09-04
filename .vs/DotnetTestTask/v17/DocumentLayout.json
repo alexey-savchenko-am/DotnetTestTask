@@ -1,0 +1,923 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\DotnetTestTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.api\\dotnettesttask.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|solutionrelative:src\\dotnettesttask.api\\dotnettesttask.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|solutionrelative:src\\dotnettesttask.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.infrastructure\\data\\config\\exceptionjournalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|solutionrelative:src\\dotnettesttask.infrastructure\\data\\config\\exceptionjournalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.infrastructure\\migrations\\20250904103611_addedexceptionjournal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|solutionrelative:src\\dotnettesttask.infrastructure\\migrations\\20250904103611_addedexceptionjournal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|solutionrelative:src\\dotnettesttask.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.infrastructure\\data\\config\\nodeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|solutionrelative:src\\dotnettesttask.infrastructure\\data\\config\\nodeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.core\\journalaggregate\\exceptionjournal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|solutionrelative:src\\dotnettesttask.core\\journalaggregate\\exceptionjournal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.core\\treeaggregate\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|solutionrelative:src\\dotnettesttask.core\\treeaggregate\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.core\\journalaggregate\\iexceptionjournalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|solutionrelative:src\\dotnettesttask.core\\journalaggregate\\iexceptionjournalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.core\\journalaggregate\\nodeid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|solutionrelative:src\\dotnettesttask.core\\journalaggregate\\nodeid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.core\\treeaggregate\\nodeid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|solutionrelative:src\\dotnettesttask.core\\treeaggregate\\nodeid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.application\\getorcreatetree\\getorcreatetreecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|solutionrelative:src\\dotnettesttask.application\\getorcreatetree\\getorcreatetreecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.api\\controllers\\treecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|solutionrelative:src\\dotnettesttask.api\\controllers\\treecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.application\\getorcreatetree\\models\\treedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|solutionrelative:src\\dotnettesttask.application\\getorcreatetree\\models\\treedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.application\\getorcreatetree\\getorcreatetreecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|solutionrelative:src\\dotnettesttask.application\\getorcreatetree\\getorcreatetreecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.application\\getorcreatetree\\models\\nodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|solutionrelative:src\\dotnettesttask.application\\getorcreatetree\\models\\nodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.application\\createnode\\createnodecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|solutionrelative:src\\dotnettesttask.application\\createnode\\createnodecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.infrastructure\\migrations\\20250904064108_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|solutionrelative:src\\dotnettesttask.infrastructure\\migrations\\20250904064108_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|solutionrelative:src\\dotnettesttask.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.infrastructure\\repositories\\noderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|solutionrelative:src\\dotnettesttask.infrastructure\\repositories\\noderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.infrastructure\\data\\testdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|solutionrelative:src\\dotnettesttask.infrastructure\\data\\testdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.core\\persistence\\idatabaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|solutionrelative:src\\sharedkernel.core\\persistence\\idatabaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.application\\renamenode\\renamenodecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|solutionrelative:src\\dotnettesttask.application\\renamenode\\renamenodecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.core\\treeaggregate\\inoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|solutionrelative:src\\dotnettesttask.core\\treeaggregate\\inoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.application\\renamenode\\renamenodecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|solutionrelative:src\\dotnettesttask.application\\renamenode\\renamenodecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.application\\deletenode\\deletenodecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|solutionrelative:src\\dotnettesttask.application\\deletenode\\deletenodecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.application\\deletenode\\deletenodecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|solutionrelative:src\\dotnettesttask.application\\deletenode\\deletenodecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.core\\persistence\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|solutionrelative:src\\sharedkernel.core\\persistence\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.application\\createnode\\createnodecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|solutionrelative:src\\dotnettesttask.application\\createnode\\createnodecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5764053-0192-4781-9E9F-04AAF35CFE54}|src\\SharedKernel.Application\\SharedKernel.Application.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.application\\cqrs\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5764053-0192-4781-9E9F-04AAF35CFE54}|src\\SharedKernel.Application\\SharedKernel.Application.csproj|solutionrelative:src\\sharedkernel.application\\cqrs\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5764053-0192-4781-9E9F-04AAF35CFE54}|src\\SharedKernel.Application\\SharedKernel.Application.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.application\\cqrs\\iqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5764053-0192-4781-9E9F-04AAF35CFE54}|src\\SharedKernel.Application\\SharedKernel.Application.csproj|solutionrelative:src\\sharedkernel.application\\cqrs\\iqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5764053-0192-4781-9E9F-04AAF35CFE54}|src\\SharedKernel.Application\\SharedKernel.Application.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.application\\cqrs\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5764053-0192-4781-9E9F-04AAF35CFE54}|src\\SharedKernel.Application\\SharedKernel.Application.csproj|solutionrelative:src\\sharedkernel.application\\cqrs\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5764053-0192-4781-9E9F-04AAF35CFE54}|src\\SharedKernel.Application\\SharedKernel.Application.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.application\\cqrs\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5764053-0192-4781-9E9F-04AAF35CFE54}|src\\SharedKernel.Application\\SharedKernel.Application.csproj|solutionrelative:src\\sharedkernel.application\\cqrs\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.infrastructure\\data\\postgresconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|solutionrelative:src\\dotnettesttask.infrastructure\\data\\postgresconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|solutionrelative:src\\dotnettesttask.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F21DAB-8FDD-41A6-9491-FA4B9300DAA3}|docker-compose.dcproj|d:\\projects\\dotnettesttask\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F7F21DAB-8FDD-41A6-9491-FA4B9300DAA3}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|solutionrelative:src\\dotnettesttask.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F21DAB-8FDD-41A6-9491-FA4B9300DAA3}|docker-compose.dcproj|d:\\projects\\dotnettesttask\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F7F21DAB-8FDD-41A6-9491-FA4B9300DAA3}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|solutionrelative:src\\dotnettesttask.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|solutionrelative:src\\dotnettesttask.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.api\\dotnettesttask.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{649E8777-A2EE-4869-87B3-806782BFBB28}|src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj|solutionrelative:src\\dotnettesttask.api\\dotnettesttask.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|solutionrelative:src\\dotnettesttask.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50628F81-B75D-4232-90E9-103644BFA94C}|Solution Items{50628F81-B75D-4232-90E9-103644BFA94C}|D:\\Projects\\DotnetTestTask\\Directory.Packages.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{50628F81-B75D-4232-90E9-103644BFA94C}|Solution Items{50628F81-B75D-4232-90E9-103644BFA94C}|solutionrelative:Directory.Packages.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A3B71E-106B-49AC-BCF8-B49447FECE80}|src\\SharedKernel.Infrastructure\\SharedKernel.Infrastructure.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.infrastructure\\sharedkernel.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E5A3B71E-106B-49AC-BCF8-B49447FECE80}|src\\SharedKernel.Infrastructure\\SharedKernel.Infrastructure.csproj|solutionrelative:src\\sharedkernel.infrastructure\\sharedkernel.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.core\\sharedkernel.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|solutionrelative:src\\sharedkernel.core\\sharedkernel.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A3B71E-106B-49AC-BCF8-B49447FECE80}|src\\SharedKernel.Infrastructure\\SharedKernel.Infrastructure.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.infrastructure\\database\\databaseoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A3B71E-106B-49AC-BCF8-B49447FECE80}|src\\SharedKernel.Infrastructure\\SharedKernel.Infrastructure.csproj|solutionrelative:src\\sharedkernel.infrastructure\\database\\databaseoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A3B71E-106B-49AC-BCF8-B49447FECE80}|src\\SharedKernel.Infrastructure\\SharedKernel.Infrastructure.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.infrastructure\\database\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A3B71E-106B-49AC-BCF8-B49447FECE80}|src\\SharedKernel.Infrastructure\\SharedKernel.Infrastructure.csproj|solutionrelative:src\\sharedkernel.infrastructure\\database\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.infrastructure\\dotnettesttask.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A0677201-A679-45A3-8DF3-F5DF8CFDB587}|src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj|solutionrelative:src\\dotnettesttask.infrastructure\\dotnettesttask.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.core\\persistence\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|solutionrelative:src\\sharedkernel.core\\persistence\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.application\\dotnettesttask.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{46B87D31-C6CA-4326-AF6A-2E3C58489BFA}|src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj|solutionrelative:src\\dotnettesttask.application\\dotnettesttask.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5764053-0192-4781-9E9F-04AAF35CFE54}|src\\SharedKernel.Application\\SharedKernel.Application.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.application\\sharedkernel.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D5764053-0192-4781-9E9F-04AAF35CFE54}|src\\SharedKernel.Application\\SharedKernel.Application.csproj|solutionrelative:src\\sharedkernel.application\\sharedkernel.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.core\\output\\resultt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|solutionrelative:src\\sharedkernel.core\\output\\resultt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.core\\output\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|solutionrelative:src\\sharedkernel.core\\output\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|d:\\projects\\dotnettesttask\\src\\sharedkernel.core\\output\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{173B1640-C736-4D46-8E84-3D3E89BD02A5}|src\\SharedKernel.Core\\SharedKernel.Core.csproj|solutionrelative:src\\sharedkernel.core\\output\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|d:\\projects\\dotnettesttask\\src\\dotnettesttask.core\\dotnettesttask.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CBDF7A0E-6186-4E89-B56D-E21E941F83D2}|src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj|solutionrelative:src\\dotnettesttask.core\\dotnettesttask.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50628F81-B75D-4232-90E9-103644BFA94C}|Solution Items{50628F81-B75D-4232-90E9-103644BFA94C}|D:\\Projects\\DotnetTestTask\\Directory.Build.Props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{50628F81-B75D-4232-90E9-103644BFA94C}|Solution Items{50628F81-B75D-4232-90E9-103644BFA94C}|solutionrelative:Directory.Build.Props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DotnetTestTask.Api",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj",
+              "RelativeToolTip": "src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-04T10:58:23.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250904103611_AddedExceptionJournal.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Migrations\\20250904103611_AddedExceptionJournal.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Infrastructure\\Migrations\\20250904103611_AddedExceptionJournal.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Migrations\\20250904103611_AddedExceptionJournal.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Infrastructure\\Migrations\\20250904103611_AddedExceptionJournal.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T10:36:15.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionJournalConfiguration.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Data\\Config\\ExceptionJournalConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Infrastructure\\Data\\Config\\ExceptionJournalConfiguration.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Data\\Config\\ExceptionJournalConfiguration.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Infrastructure\\Data\\Config\\ExceptionJournalConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T07:56:30.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IExceptionJournalRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\JournalAggregate\\IExceptionJournalRepository.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Core\\JournalAggregate\\IExceptionJournalRepository.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\JournalAggregate\\IExceptionJournalRepository.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Core\\JournalAggregate\\IExceptionJournalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T07:53:06.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExceptionJournal.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\JournalAggregate\\ExceptionJournal.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Core\\JournalAggregate\\ExceptionJournal.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\JournalAggregate\\ExceptionJournal.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Core\\JournalAggregate\\ExceptionJournal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T07:49:39.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Api\\Program.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\Program.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T03:02:37.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NodeConfiguration.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Data\\Config\\NodeConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Infrastructure\\Data\\Config\\NodeConfiguration.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Data\\Config\\NodeConfiguration.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Infrastructure\\Data\\Config\\NodeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T03:37:43.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T03:30:04.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NodeId.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\JournalAggregate\\NodeId.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Core\\JournalAggregate\\NodeId.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\JournalAggregate\\NodeId.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Core\\JournalAggregate\\NodeId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T07:50:00.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetOrCreateTreeCommandHandler.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\GetOrCreateTree\\GetOrCreateTreeCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Application\\GetOrCreateTree\\GetOrCreateTreeCommandHandler.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\GetOrCreateTree\\GetOrCreateTreeCommandHandler.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Application\\GetOrCreateTree\\GetOrCreateTreeCommandHandler.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwDUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T06:50:38.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Node.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\TreeAggregate\\Node.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Core\\TreeAggregate\\Node.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\TreeAggregate\\Node.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Core\\TreeAggregate\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T03:17:30.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetOrCreateTreeCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\GetOrCreateTree\\GetOrCreateTreeCommand.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Application\\GetOrCreateTree\\GetOrCreateTreeCommand.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\GetOrCreateTree\\GetOrCreateTreeCommand.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Application\\GetOrCreateTree\\GetOrCreateTreeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T06:50:24.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TreeDto.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\GetOrCreateTree\\Models\\TreeDto.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Application\\GetOrCreateTree\\Models\\TreeDto.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\GetOrCreateTree\\Models\\TreeDto.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Application\\GetOrCreateTree\\Models\\TreeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T07:17:42.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NodeDto.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\GetOrCreateTree\\Models\\NodeDto.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Application\\GetOrCreateTree\\Models\\NodeDto.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\GetOrCreateTree\\Models\\NodeDto.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Application\\GetOrCreateTree\\Models\\NodeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T07:17:34.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NodeId.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\TreeAggregate\\NodeId.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Core\\TreeAggregate\\NodeId.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\TreeAggregate\\NodeId.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Core\\TreeAggregate\\NodeId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T04:10:09.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TreeController.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\Controllers\\TreeController.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Api\\Controllers\\TreeController.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\Controllers\\TreeController.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Api\\Controllers\\TreeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:28:48.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateNodeCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\CreateNode\\CreateNodeCommand.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Application\\CreateNode\\CreateNodeCommand.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\CreateNode\\CreateNodeCommand.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Application\\CreateNode\\CreateNodeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T14:56:01.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:04:27.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250904064108_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Migrations\\20250904064108_InitialCreate.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Infrastructure\\Migrations\\20250904064108_InitialCreate.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Migrations\\20250904064108_InitialCreate.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Infrastructure\\Migrations\\20250904064108_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T06:41:22.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NodeRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Repositories\\NodeRepository.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Infrastructure\\Repositories\\NodeRepository.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Repositories\\NodeRepository.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Infrastructure\\Repositories\\NodeRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA3wCoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T04:03:41.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TestDbContextSeed.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Data\\TestDbContextSeed.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Infrastructure\\Data\\TestDbContextSeed.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Data\\TestDbContextSeed.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Infrastructure\\Data\\TestDbContextSeed.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:47:34.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IDatabaseInitializer.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\Persistence\\IDatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Core\\Persistence\\IDatabaseInitializer.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\Persistence\\IDatabaseInitializer.cs",
+              "RelativeToolTip": "src\\SharedKernel.Core\\Persistence\\IDatabaseInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T05:59:30.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RenameNodeCommandHandler.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\RenameNode\\RenameNodeCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Application\\RenameNode\\RenameNodeCommandHandler.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\RenameNode\\RenameNodeCommandHandler.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Application\\RenameNode\\RenameNodeCommandHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T15:32:39.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "INodeRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\TreeAggregate\\INodeRepository.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Core\\TreeAggregate\\INodeRepository.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\TreeAggregate\\INodeRepository.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Core\\TreeAggregate\\INodeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T03:17:44.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RenameNodeCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\RenameNode\\RenameNodeCommand.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Application\\RenameNode\\RenameNodeCommand.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\RenameNode\\RenameNodeCommand.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Application\\RenameNode\\RenameNodeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T15:32:26.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DeleteNodeCommandHandler.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\DeleteNode\\DeleteNodeCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Application\\DeleteNode\\DeleteNodeCommandHandler.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\DeleteNode\\DeleteNodeCommandHandler.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Application\\DeleteNode\\DeleteNodeCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T16:01:21.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeleteNodeCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\DeleteNode\\DeleteNodeCommand.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Application\\DeleteNode\\DeleteNodeCommand.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\DeleteNode\\DeleteNodeCommand.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Application\\DeleteNode\\DeleteNodeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T15:59:34.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ISession.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\Persistence\\ISession.cs",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Core\\Persistence\\ISession.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\Persistence\\ISession.cs",
+              "RelativeToolTip": "src\\SharedKernel.Core\\Persistence\\ISession.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:01:07.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateNodeCommandHandler.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\CreateNode\\CreateNodeCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Application\\CreateNode\\CreateNodeCommandHandler.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\CreateNode\\CreateNodeCommandHandler.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Application\\CreateNode\\CreateNodeCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T14:56:15.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ICommandHandler.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Application\\CQRS\\ICommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Application\\CQRS\\ICommandHandler.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Application\\CQRS\\ICommandHandler.cs",
+              "RelativeToolTip": "src\\SharedKernel.Application\\CQRS\\ICommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:17:11.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IQuery.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Application\\CQRS\\IQuery.cs",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Application\\CQRS\\IQuery.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Application\\CQRS\\IQuery.cs",
+              "RelativeToolTip": "src\\SharedKernel.Application\\CQRS\\IQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:17:12.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Application\\CQRS\\ICommand.cs",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Application\\CQRS\\ICommand.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Application\\CQRS\\ICommand.cs",
+              "RelativeToolTip": "src\\SharedKernel.Application\\CQRS\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:15:12.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IQueryHandler.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Application\\CQRS\\IQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Application\\CQRS\\IQueryHandler.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Application\\CQRS\\IQueryHandler.cs",
+              "RelativeToolTip": "src\\SharedKernel.Application\\CQRS\\IQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:17:13.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PostgresConnectionFactory.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Data\\PostgresConnectionFactory.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Infrastructure\\Data\\PostgresConnectionFactory.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\Data\\PostgresConnectionFactory.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Infrastructure\\Data\\PostgresConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:19:37.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Api\\appsettings.Development.json",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\appsettings.Development.json",
+              "RelativeToolTip": "src\\DotnetTestTask.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-03T09:10:42.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Api\\appsettings.json",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\appsettings.json",
+              "RelativeToolTip": "src\\DotnetTestTask.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-03T09:10:39.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-09-03T09:07:21.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-03T09:07:49.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\DotnetTestTask.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-03T09:07:31.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Api\\Dockerfile",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\Dockerfile",
+              "RelativeToolTip": "src\\DotnetTestTask.Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-03T09:06:52.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DotnetTestTask.Api.csproj",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj",
+              "RelativeToolTip": "src\\DotnetTestTask.Api\\DotnetTestTask.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-03T03:05:26.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\DotnetTestTask.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:18:42.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Directory.Packages.props",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\Directory.Packages.props",
+              "RelativeDocumentMoniker": "Directory.Packages.props",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\Directory.Packages.props",
+              "RelativeToolTip": "Directory.Packages.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-03T03:04:41.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SharedKernel.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Infrastructure\\SharedKernel.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Infrastructure\\SharedKernel.Infrastructure.csproj",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Infrastructure\\SharedKernel.Infrastructure.csproj",
+              "RelativeToolTip": "src\\SharedKernel.Infrastructure\\SharedKernel.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-03T06:10:20.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SharedKernel.Core.csproj",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\SharedKernel.Core.csproj",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Core\\SharedKernel.Core.csproj",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\SharedKernel.Core.csproj",
+              "RelativeToolTip": "src\\SharedKernel.Core\\SharedKernel.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-03T05:58:07.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DatabaseOptions.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Infrastructure\\Database\\DatabaseOptions.cs",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Infrastructure\\Database\\DatabaseOptions.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Infrastructure\\Database\\DatabaseOptions.cs",
+              "RelativeToolTip": "src\\SharedKernel.Infrastructure\\Database\\DatabaseOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:25:44.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Session.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Infrastructure\\Database\\Session.cs",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Infrastructure\\Database\\Session.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Infrastructure\\Database\\Session.cs",
+              "RelativeToolTip": "src\\SharedKernel.Infrastructure\\Database\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:08:22.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IDbConnectionFactory.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\Persistence\\IDbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Core\\Persistence\\IDbConnectionFactory.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\Persistence\\IDbConnectionFactory.cs",
+              "RelativeToolTip": "src\\SharedKernel.Core\\Persistence\\IDbConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T05:59:36.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DotnetTestTask.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj",
+              "RelativeToolTip": "src\\DotnetTestTask.Infrastructure\\DotnetTestTask.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-03T03:30:19.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SharedKernel.Application.csproj",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Application\\SharedKernel.Application.csproj",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Application\\SharedKernel.Application.csproj",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Application\\SharedKernel.Application.csproj",
+              "RelativeToolTip": "src\\SharedKernel.Application\\SharedKernel.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-03T06:15:28.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DotnetTestTask.Application.csproj",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj",
+              "RelativeToolTip": "src\\DotnetTestTask.Application\\DotnetTestTask.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-03T05:50:26.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ResultT.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\Output\\ResultT.cs",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Core\\Output\\ResultT.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\Output\\ResultT.cs",
+              "RelativeToolTip": "src\\SharedKernel.Core\\Output\\ResultT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:02:11.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Result.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\Output\\Result.cs",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Core\\Output\\Result.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\Output\\Result.cs",
+              "RelativeToolTip": "src\\SharedKernel.Core\\Output\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:02:09.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Error.cs",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\Output\\Error.cs",
+              "RelativeDocumentMoniker": "src\\SharedKernel.Core\\Output\\Error.cs",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\SharedKernel.Core\\Output\\Error.cs",
+              "RelativeToolTip": "src\\SharedKernel.Core\\Output\\Error.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:02:24.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DotnetTestTask.Core.csproj",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj",
+              "RelativeDocumentMoniker": "src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj",
+              "RelativeToolTip": "src\\DotnetTestTask.Core\\DotnetTestTask.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-03T03:31:31.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Directory.Build.Props",
+              "DocumentMoniker": "D:\\Projects\\DotnetTestTask\\Directory.Build.Props",
+              "RelativeDocumentMoniker": "Directory.Build.Props",
+              "ToolTip": "D:\\Projects\\DotnetTestTask\\Directory.Build.Props",
+              "RelativeToolTip": "Directory.Build.Props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-03T03:08:23.449Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

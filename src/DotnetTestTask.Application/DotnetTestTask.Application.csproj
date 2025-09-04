@@ -1,0 +1,6 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetTestTask.Core\DotnetTestTask.Core.csproj" />
+    <ProjectReference Include="..\SharedKernel.Application\SharedKernel.Application.csproj" />
+  </ItemGroup>
+</Project>
