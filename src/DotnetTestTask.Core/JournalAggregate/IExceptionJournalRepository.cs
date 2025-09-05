@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace DotnetTestTask.Core.JournalAggregate;
 
-namespace DotnetTestTask.Core.JournalAggregate
+public interface IExceptionJournalRepository
 {
-    internal class IExceptionJournalRepository
-    {
-    }
 }

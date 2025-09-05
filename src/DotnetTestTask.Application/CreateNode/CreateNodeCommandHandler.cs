@@ -3,7 +3,7 @@ using DotnetTestTask.Core.TreeAggregate;
 using Project.Core.TreeAggregate;
 using SharedKernel.Application.CQRS;
 using SharedKernel.Core.Output;
-using SharedKernel.Persistence;
+using SharedKernel.Core.Persistence;
 
 namespace DotnetTestTask.Application.CreateNode;
 

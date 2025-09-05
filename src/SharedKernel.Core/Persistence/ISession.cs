@@ -1,7 +1,7 @@
 ﻿using SharedKernel.Core.Output;
 using System.Data;
 
-namespace SharedKernel.Persistence;
+namespace SharedKernel.Core.Persistence;
 
 public interface ISession
 {
@@ -16,4 +16,8 @@ public interface ISession
     Task<Result<TResult>> ExecuteWithinRepeatableReadTransaction<TResult>(Func<Task<Result<TResult>>> action, CancellationToken ct = default);
 
     Task StoreAsync(CancellationToken ct = default);
+
+    Task AddAsync<TEntity>(TEntity entity, CancellationToken ct = default) where TEntity: class;
+
+    Task RemoveAsync<TEntity>(TEntity entity, CancellationToken ct = default) where TEntity : class;
 }

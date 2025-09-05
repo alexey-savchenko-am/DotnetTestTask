@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using SharedKernel.Core.Output;
-using SharedKernel.Persistence;
+using SharedKernel.Core.Persistence;
 using System.Data;
 
 namespace SharedKernel.Infrastructure.Database;
@@ -69,5 +69,18 @@ public sealed class Session
     public Task StoreAsync(CancellationToken ct = default)
     {
         return _dbContext.SaveChangesAsync(ct);
+    }
+
+    public async Task AddAsync<TEntity>(TEntity entity, CancellationToken ct = default)
+        where TEntity : class
+    {
+        await _dbContext.Set<TEntity>().AddAsync(entity, ct);
+    }
+
+    public Task RemoveAsync<TEntity>(TEntity entity, CancellationToken ct = default)
+        where TEntity : class
+    {
+        _dbContext.Set<TEntity>().Remove(entity);
+        return Task.CompletedTask;
     }
 }

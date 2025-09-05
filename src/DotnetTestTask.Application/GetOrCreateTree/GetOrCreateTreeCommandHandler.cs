@@ -6,7 +6,6 @@ using Project.Core.TreeAggregate;
 using SharedKernel.Application.CQRS;
 using SharedKernel.Core.Output;
 using SharedKernel.Core.Persistence;
-using SharedKernel.Persistence;
 
 namespace DotnetTestTask.Application.CreateTree;
 

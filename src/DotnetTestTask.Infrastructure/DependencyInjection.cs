@@ -8,7 +8,6 @@ using Product.Infrastructure.Data;
 using Project.Core.TreeAggregate;
 using SharedKernel.Core.Persistence;
 using SharedKernel.Infrastructure.Database;
-using SharedKernel.Persistence;
 
 namespace DotnetTestTask.Infrastructure;
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotnetTestTask.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+334649679392d8e61db98b7a84f469a5c4181bbd")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotnetTestTask.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotnetTestTask.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
