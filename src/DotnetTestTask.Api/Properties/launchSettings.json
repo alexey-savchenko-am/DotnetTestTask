@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DotnetTestTask.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:6458;http://localhost:6459"
+    }
+  }
+}
