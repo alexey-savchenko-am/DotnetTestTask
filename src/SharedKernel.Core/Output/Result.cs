@@ -11,19 +11,22 @@ public class Result
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
     public Error Error { get; }
-    
+
     protected Result(bool isSuccess, Error error)
     {
-        if (isSuccess && error != Error.None ||
-            !isSuccess && error == Error.None)
-        {
-            throw new ArgumentException("Invalid error", nameof(error));
-        }
+        if (isSuccess && error != Error.None)
+            throw new ArgumentException("A successful result cannot contain an error.", nameof(error));
 
-        this.IsSuccess = isSuccess;
-        this.Error = error;
+        if (!isSuccess && error == Error.None)
+            throw new ArgumentException("A failure result must contain an error.", nameof(error));
+
+        IsSuccess = isSuccess;
+        Error = error;
     }
 
-    public static Result Success() => new(true, Error.None);
-    public static Result Failure(Error error) => new(false, error);
+    public static Result Success()
+        => new(true, Error.None);
+
+    public static Result Failure(Error error)
+        => new(false, error);
 }

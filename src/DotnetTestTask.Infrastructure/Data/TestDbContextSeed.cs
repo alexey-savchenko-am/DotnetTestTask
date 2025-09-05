@@ -25,25 +25,20 @@ internal sealed class TestDbContextSeed(AppDbContext dbContext) : IDatabaseIniti
     {
         var treeRoot = Node.Create("CompanyTree");
 
-        // Основные департаменты
         var itNode = Node.Create("IT Department", treeRoot);
         var salesNode = Node.Create("Sales Department", treeRoot);
         var hrNode = Node.Create("HR Department", treeRoot);
 
-        // IT 
         var backendNode = Node.Create("Backend Team", itNode);
         var frontEndNode = Node.Create("Frontend Team", itNode);
         var devopsNode = Node.Create("DevOps Team", itNode);
 
-        // Backend 
         Node.Create("Ann Doe", backendNode);
         Node.Create("John Smith", backendNode);
 
-        // Frontend 
         Node.Create("Michael Brown", frontEndNode);
         Node.Create("Emily Davis", frontEndNode);
 
-        // DevOps 
         Node.Create("Robert Wilson", devopsNode);
         Node.Create("Laura Johnson", devopsNode);
 

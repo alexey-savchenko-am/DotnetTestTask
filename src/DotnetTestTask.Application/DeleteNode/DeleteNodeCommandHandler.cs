@@ -1,4 +1,5 @@
-﻿using DotnetTestTask.Core.TreeAggregate;
+﻿using DotnetTestTask.Core.Exceptions;
+using DotnetTestTask.Core.TreeAggregate;
 using Project.Core.TreeAggregate;
 using SharedKernel.Application.CQRS;
 using SharedKernel.Core.Output;
@@ -16,21 +17,14 @@ internal sealed class DeleteNodeCommandHandler(
         var node = await nodeRepository.GetByIdAsync(NodeId.Create(request.NodeId));
 
         if (node is null)
-            return new Error("Node.NotFound", $"The requested node with id {request.NodeId} was not found.");
+            throw new SecureException($"The requested node with id {request.NodeId} was not found.");
 
         if (node.Children.Count != 0)
-          return new Error("Node.NotLeaf", $"The requested node with id {request.NodeId} must be a leaf node.");
+            throw new SecureException($"The requested node with id {request.NodeId} must be a leaf node.");
 
-        try
-        {
-            nodeRepository.Remove(node);
+        nodeRepository.Remove(node);
 
-            await session.StoreAsync(cancellationToken);
-        }
-        catch (Exception ex)
-        {
-
-        }
+        await session.StoreAsync(cancellationToken);
 
         return Result.Success();
     }

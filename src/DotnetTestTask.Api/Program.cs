@@ -1,3 +1,4 @@
+using DotnetTestTask.Api;
 using DotnetTestTask.Application;
 using DotnetTestTask.Infrastructure;
 using SharedKernel.Core.Persistence;
@@ -27,6 +28,7 @@ if (app.Environment.IsDevelopment())
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseHttpsRedirection();
+app.UseMiddleware<ErrorHandlingMiddleware>();
 app.MapControllers();
 
 await app.RunAsync();

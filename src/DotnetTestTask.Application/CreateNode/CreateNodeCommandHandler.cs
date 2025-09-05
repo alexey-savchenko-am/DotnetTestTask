@@ -1,4 +1,5 @@
 ﻿using DotnetTestTask.Application.TreeNodes.CreateNode;
+using DotnetTestTask.Core.Exceptions;
 using DotnetTestTask.Core.TreeAggregate;
 using Project.Core.TreeAggregate;
 using SharedKernel.Application.CQRS;
@@ -17,12 +18,12 @@ internal sealed class CreateNodeCommandHandler(INodeRepository nodeRepository, I
         var parentNode = await nodeRepository.GetByIdAsync(parentNodeId, cancellationToken);
 
         if (parentNode is null)
-            return new Error("Node.NotFound", $"Parent node with Id {request.ParentNodeId} was not found.");
+            throw new SecureException($"Parent node with id = {request.ParentNodeId} was not found.");
 
         var newNodeResult = Node.Create(request.NodeName, parentNode);
 
         if (newNodeResult.IsFailure)
-            return newNodeResult.Error;
+            throw new SecureException(newNodeResult.Error!);
 
         await session.StoreAsync(cancellationToken);
 

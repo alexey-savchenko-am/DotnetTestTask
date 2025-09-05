@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using DotnetTestTask.Application.GetOrCreateTree;
 using DotnetTestTask.Application.GetOrCreateTree.Models;
+using DotnetTestTask.Core.Exceptions;
 using DotnetTestTask.Core.TreeAggregate;
 using Project.Core.TreeAggregate;
 using SharedKernel.Application.CQRS;
@@ -28,7 +29,7 @@ internal sealed class GetOrCreateTreeCommandHandler(
         var rootNode = Node.Create(request.TreeName);
 
         if (rootNode.IsFailure)
-            return rootNode.Error;
+            throw new SecureException(rootNode.Error!);
 
         await nodeRepository.AddAsync(rootNode);
         await session.StoreAsync(cancellationToken);
@@ -94,13 +95,6 @@ internal sealed class GetOrCreateTreeCommandHandler(
             Name = root.Name,
             Children = nodes[root.Id].Children
         };
-    }
-
-
-    class TreeRecord
-    {
-        public long Id { get; init; }
-        public string Name { get; init; } = null!;
     }
 
     class NodeRecord

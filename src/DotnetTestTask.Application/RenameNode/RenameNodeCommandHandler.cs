@@ -1,4 +1,5 @@
-﻿using DotnetTestTask.Core.TreeAggregate;
+﻿using DotnetTestTask.Core.Exceptions;
+using DotnetTestTask.Core.TreeAggregate;
 using Project.Core.TreeAggregate;
 using SharedKernel.Application.CQRS;
 using SharedKernel.Core.Output;
@@ -14,7 +15,7 @@ internal sealed class RenameNodeCommandHandler(INodeRepository nodeRepository, I
         var node = await nodeRepository.GetByIdAsync(NodeId.Create(request.NodeId));
 
         if (node is null)
-            return new Error("Tree.NotFound", $"Node '{request.NodeId}' was not found.");
+            throw new SecureException($"Node with id = '{request.NodeId}' was not found.");
 
         var currentNodeSiblings = await nodeRepository.GetSiblingsAsync(node, cancellationToken);
 
@@ -22,14 +23,13 @@ internal sealed class RenameNodeCommandHandler(INodeRepository nodeRepository, I
 
         if (hasDuplicate)
         {
-            return new Error("Node.DuplicateName",
-                $"Node with name '{request.NewNodeName}' already exists among siblings.");
+            throw new SecureException($"Node with name '{request.NewNodeName}' already exists among siblings.");
         }
 
         var renameNodeResult = node.Rename(request.NewNodeName);
 
         if (renameNodeResult.IsFailure)
-            return renameNodeResult.Error;
+            throw new SecureException(renameNodeResult.Error!);
 
         await session.StoreAsync(cancellationToken);
 

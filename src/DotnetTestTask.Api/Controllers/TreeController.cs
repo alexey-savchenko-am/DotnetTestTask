@@ -12,6 +12,7 @@ namespace DotnetTestTask.Api.Controllers;
 public class TreeController(ISender sender) : Controller
 {
     [HttpPost("api.user.tree.get")]
+    [EndpointDescription("Use CompanyTree for a test.")]
     public async Task<ActionResult<TreeDto>> GetTree([FromQuery] string treeName)
     {
         var tree = await sender.Send(new GetOrCreateTreeCommand(treeName));
