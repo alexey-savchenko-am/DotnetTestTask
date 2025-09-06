@@ -4,6 +4,8 @@ namespace Project.Core.TreeAggregate;
 
 public interface INodeRepository
 {
+    Task<bool> RootNodeExistsAsync(string name, CancellationToken ct = default);
+
     Task<Node?> GetByNameAsync(string name, CancellationToken ct = default);
 
     Task<Node?> GetParentNodeAsync(Node node, CancellationToken ct = default);

@@ -7,6 +7,12 @@ namespace DotnetTestTask.Infrastructure.Repositories;
 
 internal sealed class NodeRepository(AppDbContext dbContext) : INodeRepository
 {
+    public async Task<bool> RootNodeExistsAsync(string name, CancellationToken ct = default)
+    {
+        return await dbContext.Nodes
+          .AnyAsync(n => n.Name == name && n.Parent == null, ct);
+    }
+
     public async Task<Node?> GetByNameAsync(string name, CancellationToken ct = default)
     {
         return await dbContext.Nodes
@@ -33,7 +39,6 @@ internal sealed class NodeRepository(AppDbContext dbContext) : INodeRepository
             .Include(n => n.Children)
             .FirstOrDefaultAsync(n => n.Id == id, ct);
     }
-
 
     public async Task<IEnumerable<Node>> GetSiblingsAsync(Node node, CancellationToken ct = default)
     {

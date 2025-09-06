@@ -2,5 +2,10 @@
 
 namespace DotnetTestTask.Application.GetExceptionJournal;
 
-public sealed record GetExceptionJournalQuery(int Page, int PageSize) 
+public sealed record GetExceptionJournalQuery(
+    int Skip, 
+    int Take, 
+    DateTime? FromDate, 
+    DateTime? ToDate,
+    string? Keyword) 
     : IQuery<List<JournalRecordDto>>;

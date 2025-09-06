@@ -12,6 +12,12 @@ internal sealed class RenameNodeCommandHandler(INodeRepository nodeRepository, I
 {
     public async Task<Result> Handle(RenameNodeCommand request, CancellationToken cancellationToken)
     {
+        // Check if the specified tree exists
+        if (!await nodeRepository.RootNodeExistsAsync(request.TreeName))
+        {
+            throw new SecureException($"Tree with name = '{request.TreeName}' was not found.");
+        }
+
         var node = await nodeRepository.GetByIdAsync(NodeId.Create(request.NodeId));
 
         if (node is null)
