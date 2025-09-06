@@ -60,3 +60,35 @@ Response format:
   "id": "638136064526554554",
   "data": { "message": "You have to delete all children nodes first" }
 }
+```
+
+# Start PostgreSQL and the application via `docker-compose`
+
+```yaml
+services:
+  dotnettesttask.api:
+    image: ${DOCKER_REGISTRY-}dotnettesttaskapi
+    build:
+      context: .
+      dockerfile: src/DotnetTestTask.Api/Dockerfile
+    ports:
+      - 5000:8080
+      - 5001:8081
+    depends_on:
+        - dotnettesttask.postgres
+  dotnettesttask.postgres:
+    image: postgres:17.2
+    environment: 
+        POSTGRES_DB: testdb
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: postgres
+    volumes:
+        - ./.containers/postgres_data:/var/lib/postgresql/data
+    ports:
+        - 5432:5432
+```
+
+```bash
+docker-compose up --build
+```
+
