@@ -13,9 +13,14 @@ internal sealed class CreateNodeCommandHandler(INodeRepository nodeRepository, I
 {
     public async Task<Result<NodeId>> Handle(CreateNodeCommand request, CancellationToken cancellationToken)
     {
-        var parentNodeId = NodeId.Create(request.ParentNodeId);
+        // Check if the specified tree exists
+        if(!await nodeRepository.RootNodeExistsAsync(request.TreeName))
+        {
+           throw new SecureException($"Tree with name = '{request.TreeName}' was not found.");
+        }
 
-        var parentNode = await nodeRepository.GetByIdAsync(parentNodeId, cancellationToken);
+        var parentNode = await nodeRepository.GetByIdAsync(
+            NodeId.Create(request.ParentNodeId), cancellationToken);
 
         if (parentNode is null)
             throw new SecureException($"Parent node with id = {request.ParentNodeId} was not found.");
