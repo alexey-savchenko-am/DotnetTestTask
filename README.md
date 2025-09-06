@@ -62,7 +62,7 @@ Response format:
 }
 ```
 
-# Start PostgreSQL and the application via `docker-compose`
+## Start PostgreSQL and the application via `docker-compose`
 
 ```yaml
 services:
